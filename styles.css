@@ -1,0 +1,47 @@
+body {
+    background-color: #222;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    color: transparent;
+    background: linear-gradient(
+        to right, 
+        #2c4a70 20%, 
+        #38b6ff 40%, 
+        #38b6ff 60%,  
+        #004aad 80%
+    );
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: shine 6s linear infinite;
+    text-align: center;
+}
+
+@keyframes shine {
+    to {
+        background-position: 200% center;
+    }
+}
+
+/* ICONOS----------------- */
+
+
+img {
+    width: 30px;
+    height: 30px;
+    color: green;
+}
+
+.inst {
+    width: 30px;
+    height: 30px;
+    color:#E1306C,#FDB827,#405DE6
+}
+
+.face {
+    width: 30px;
+    height: 30px;
+}
